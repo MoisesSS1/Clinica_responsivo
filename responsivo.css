@@ -1,0 +1,349 @@
+/*Aqui começa a estilização da parte responsiva*/
+
+
+@media (max-width:1340px){
+
+    #topo img{
+        width: 150px;
+        padding-right: 850px;
+    }
+
+}
+
+@media (max-width:1300px){
+
+    #topo img{
+        width: 150px;
+        padding-right: 800px;
+    }
+
+}
+
+@media (max-width:1252px){
+
+    #topo img{
+        width: 150px;
+        padding-right: 700px;
+    }
+
+}
+
+@media (max-width:1130px){
+
+    #topo img{
+        width: 150px;
+        padding-right: 650px;
+    }
+
+}
+
+@media (max-width:1090px){
+
+    #topo img{
+        width: 150px;
+        padding-right: 550px;
+    }
+
+}
+
+@media (max-width:1024px){
+    
+    #sobre_desc, #sobre, #especialidades, #contato {
+        width: 980px;
+    }
+
+    #topo img{
+        padding-right: 530px;
+    }
+
+    #sobre img{
+        padding-left: 180px;
+        padding-right: 30px;
+    }
+
+}
+
+@media (max-width:980px){
+
+    #sobre_desc, #sobre, #especialidades, #contato {
+        width: 888px;
+    }
+
+    #topo img{
+        padding-right: 450px;
+    }
+
+    .card{
+        width: 230px;
+        height: 230px;
+    }
+
+}
+
+@media (max-width:888px){
+
+    #img_intro{
+        background-size: 100% 375px;
+        height: 375px;
+    }
+    
+    #sobre_desc, #sobre, #especialidades, #contato {
+        width: 850px;
+    }
+
+    #topo img{
+        padding-right: 400px;
+    }
+
+    .card{
+        width: 200px;
+        height: 200px;
+    }
+
+    #sobre img{
+        padding-left: 150px;
+        padding-right: 30px;
+    }
+
+}
+
+@media (max-width:850px){
+
+    #img_intro{
+        height: 375px;
+    }
+    
+    #sobre_desc, #sobre, #especialidades, #contato {
+        width: 800px;
+    }
+
+    #topo img{
+        padding-right: 400px;
+    }
+
+    .card{
+        width: 200px;
+        height: 200px;
+    }
+
+    #sobre img{
+        padding-left: 150px;
+        padding-right: 30px;
+    }
+
+}
+
+@media (max-width:838px){
+
+    #topo img{
+        padding-right: 350px;
+    }
+}
+
+@media (max-width:800px){
+
+    #topo img{
+        padding-right: 300px;
+    }
+
+    #sobre_desc, #sobre, #especialidades, #contato {
+        width: 768px;
+    }
+
+    #especialidades{
+        margin-top: 130px;
+    }
+
+}
+
+
+@media (max-width:768px){
+
+    #card_especialidades{
+        margin-top: 40px;
+    }
+
+    #especialidades{
+        margin-top: 70px;
+    }
+
+    #sobre img{
+        display: none;
+    }
+
+    #sobre{
+        padding-left: 200px;
+    }
+
+    #sobre ul li{
+        padding-top: 10px;
+    }
+
+    #sobre_desc, #sobre, #especialidades, #contato {
+        width: 700px;
+    }
+
+    #card_especialidades{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        margin-top: 30px;
+        width: 250px;
+        height: 200px;
+    }
+
+    
+    #topo img{
+        padding-right: 250px;
+    }
+}
+
+@media (max-width:710px){
+
+    #sobre{
+        padding-left: 150px;
+    }
+
+    #sobre_desc, #sobre, #especialidades, #contato {
+        width: 657px;
+    }
+
+        
+    #topo img{
+        width: 100px;
+        padding-right: 250px;
+    }
+
+
+}
+
+@media (max-width:657px){
+
+    #card_especialidades{
+        margin-top: 30px;
+    }
+
+    #especialidades{
+        margin-top: 50px;
+    }
+    
+    #topo img{
+        padding-right: 200px;
+    }
+
+    #sobre{
+        padding-left: 130px;
+    }
+
+    #img_intro{
+        font-size: 15px;
+            height: 350px;
+            background-size: 100% 350px;
+            background-repeat: no-repeat;
+    }
+
+    #sobre_desc, #sobre, #especialidades, #contato {
+        width: 607px;
+    }
+}
+
+@media (max-width:607px){
+
+    #sobre{
+        padding-left: 100px;
+    }
+
+    #img_intro{
+        font-size: 12px;
+        height: 300px;
+        background-size: 100% 300px;
+    }
+    
+    #topo img{
+        padding-right: 170px;
+    }
+
+    #sobre_desc, #sobre, #especialidades, #contato {
+        width: 572px;
+    }
+}
+
+@media (max-width:572px){
+
+    #especialidades{
+        margin-top: 50px;
+    }
+
+    #sobre{
+        padding-left: 80px;
+    }
+    
+    #topo img{
+        padding-right: 140px;
+    }
+
+    #sobre_desc, #sobre, #especialidades, #contato {
+        width: 560px;
+    }
+}
+
+
+@media (max-width:560px){
+
+    .card{
+        margin-top: 30px;
+        width: 300px;
+        height: 200px;
+    }
+
+}
+
+@media (max-width:542px){
+
+    #card_especialidades{
+        margin-top: 20px;
+    }
+
+    #sobre{
+        padding-left: 60px;
+    }
+
+    #topo img{
+        padding: 0px 50px;
+        border-bottom:inset black 3px;
+        margin-bottom: 10px;
+
+    }
+
+
+    #topo{
+        height: 120px;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+    }
+
+    #sobre_desc, #sobre, #especialidades, #contato {
+
+        width: 425px;
+    }
+}
+
+@media (max-width:425px){
+
+
+    #topo{
+        height: 110px;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+    }
+
+    #sobre_desc, #sobre, #especialidades, #contato {
+
+        width: 320px;
+    }
+}
