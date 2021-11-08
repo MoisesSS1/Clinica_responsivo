@@ -28,7 +28,7 @@
 
 }
 
-@media (max-width:1130px){
+@media (max-width:1135px){
 
     #topo img{
         width: 150px;
@@ -37,7 +37,7 @@
 
 }
 
-@media (max-width:1090px){
+@media (max-width:1113px){
 
     #topo img{
         width: 150px;
@@ -88,7 +88,7 @@
     }
     
     #sobre_desc, #sobre, #especialidades, #contato {
-        width: 850px;
+        width: 788px;
     }
 
     #topo img{
@@ -114,7 +114,7 @@
     }
     
     #sobre_desc, #sobre, #especialidades, #contato {
-        width: 800px;
+        width: 750px;
     }
 
     #topo img{
@@ -147,7 +147,7 @@
     }
 
     #sobre_desc, #sobre, #especialidades, #contato {
-        width: 768px;
+        width: 700px;
     }
 
     #especialidades{
@@ -180,7 +180,7 @@
     }
 
     #sobre_desc, #sobre, #especialidades, #contato {
-        width: 700px;
+        width: 500px;
     }
 
     #card_especialidades{
@@ -189,11 +189,10 @@
 
     .card{
         margin-top: 30px;
-        width: 250px;
-        height: 200px;
+        width: 200px;
+        height: 180px;
     }
 
-    
     #topo img{
         padding-right: 250px;
     }
@@ -206,7 +205,7 @@
     }
 
     #sobre_desc, #sobre, #especialidades, #contato {
-        width: 657px;
+        width: 500px;
     }
 
         
@@ -218,7 +217,7 @@
 
 }
 
-@media (max-width:657px){
+@media (max-width:667px){
 
     #card_especialidades{
         margin-top: 30px;
@@ -244,11 +243,17 @@
     }
 
     #sobre_desc, #sobre, #especialidades, #contato {
-        width: 607px;
+        width: 500px;
     }
 }
 
-@media (max-width:607px){
+@media (max-width:634px){
+
+    .card{
+        margin-top: 30px;
+        width: 250px;
+        height: 200px;
+    }
 
     #sobre{
         padding-left: 100px;
@@ -265,7 +270,7 @@
     }
 
     #sobre_desc, #sobre, #especialidades, #contato {
-        width: 572px;
+        width: 450px;
     }
 }
 
@@ -284,7 +289,7 @@
     }
 
     #sobre_desc, #sobre, #especialidades, #contato {
-        width: 560px;
+        width: 450px;
     }
 }
 
@@ -326,13 +331,18 @@
     }
 
     #sobre_desc, #sobre, #especialidades, #contato {
-
         width: 425px;
     }
 }
 
-@media (max-width:425px){
+@media (max-width:496px){
 
+    #sobre_desc, #sobre, #especialidades, #contato {
+        width: 300px;
+    }
+}
+
+@media (max-width:425px){
 
     #topo{
         height: 110px;
@@ -343,7 +353,29 @@
     }
 
     #sobre_desc, #sobre, #especialidades, #contato {
-
-        width: 320px;
+        width: 300px;
     }
 }
+
+@media (max-width:380px){
+
+    #sobre_desc, #sobre, #especialidades, #contato {
+        width: 250px;
+    }
+
+    #rodape{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        height: 280px;
+        text-align: center;
+        background-color: rgb(77, 181, 204);
+    }
+
+    .card{
+        margin-top: 30px;
+        width: 200px;
+        height: 180px;
+    }
+}
+
